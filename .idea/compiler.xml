@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
-      <module name="cijug-website_main" target="1.5" />
-      <module name="cijug-website_test" target="1.5" />
+      <module name="cijug-website_main" target="1.8" />
+      <module name="cijug-website_test" target="1.8" />
       <module name="website_main" target="1.5" />
       <module name="website_test" target="1.5" />
     </bytecodeTargetLevel>

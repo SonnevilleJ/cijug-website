@@ -21,7 +21,12 @@ apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'cijug-website'
-    version = '0.1.0'
+    version = this.version
+    manifest {
+        attributes(
+                'Main-Class': 'com.cijug.website.Application'
+        )
+    }
 }
 
 sourceCompatibility = 1.8
